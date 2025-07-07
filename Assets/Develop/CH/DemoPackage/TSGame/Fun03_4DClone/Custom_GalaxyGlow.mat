@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: T_Flow_DianXian
-  m_Shader: {fileID: 4800000, guid: 7d327bf23a0633143b4c212d1d1efaf9, type: 3}
-  m_ShaderKeywords: _UV_FANGXIANG_ON _WULIUDONG_ON
+  m_Name: Custom_GalaxyGlow
+  m_Shader: {fileID: 4800000, guid: 1427d22df807dff42b7ce1c925f1f0b7, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,20 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _texcoord:
-        m_Texture: {fileID: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 8277e036ce8ce8146a48ba5dc2ea1b29, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FanZheng: 0
-    - _Fresnel_Val: 5
-    - _Fresnel_fanXiang: 0
-    - _Intensity: 10
-    - _Opacity: 0.5
-    - _ScanLines: 5.00237
-    - _Speed: 0
-    - _UV_FangXiang: 1
-    - _WuLiuDong: 1
-    - __dirty: 1
+    - _EmissionStrength: 1
     m_Colors:
-    - _Hologramcolor: {r: 1, g: 0.96265996, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 0.74262595, b: 1, a: 1}
+    - _ScrollSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
